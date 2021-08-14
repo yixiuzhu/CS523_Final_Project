@@ -14,7 +14,7 @@ from scipy import spatial
 from sklearn.model_selection import train_test_split
 
 Batch_size=1024
-Epoch=2 # 50
+Epoch=200 # 50
 path="text1.txt"
 WORD_LENGTH = 5
 rate=0.01 # 0.01
