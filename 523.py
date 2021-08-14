@@ -17,7 +17,7 @@ Batch_size=1024
 Epoch=200 # 50
 path="text1.txt"
 WORD_LENGTH = 5
-rate=0.01 # 0.01
+rate=0.008 # 0.01
 
 
 
@@ -187,7 +187,7 @@ def find_closest_embeddings(representation):
 
 
 
-steps=40*len(X)/Batch_size
+steps=30*len(X)/Batch_size
 
 lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
     initial_learning_rate=rate,
