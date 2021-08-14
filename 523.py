@@ -187,7 +187,7 @@ def find_closest_embeddings(representation):
 
 
 
-steps=10*len(X)/Batch_size
+steps=2*len(X)/Batch_size
 
 lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
     initial_learning_rate=rate,
