@@ -11,3 +11,5 @@
 
 *The file was originally developed and tested on Windows 10
 
+*If you experienced unexpected error while training the model, it should be caused by Early Stopping or check point from Keras. Please try to distable them in the "callbacks" argument in model.fit in line247 if you do encounter it. The issue results from Keras
+
