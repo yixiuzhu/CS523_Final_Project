@@ -1,7 +1,7 @@
 # CS523_Final_Project
 1. The data is a text file called “text1.txt” in repo
 
-2. Please also download the original text file for glove vector, which is named as “glove.6B.50d.txt”
+2. Please also download the original text file for GloVe vector from the shared google drive link(https://drive.google.com/file/d/14CHBn0h96YBxjHHiMvSY4BtKPRVJ_eZC/view?usp=sharing), which is named as “glove.6B.50d.txt”  
 
 3. The only files needed to download are “text1.txt”, “523.py”, and “glove.6B.50d.txt”. Please have them in the same directory
 
