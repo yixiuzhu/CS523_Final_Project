@@ -17,7 +17,7 @@ Batch_size=1024
 Epoch=200 # 50
 path="text1.txt"
 WORD_LENGTH = 5
-rate=0.008 # 0.01
+rate=0.00001 # 0.01
 
 
 
